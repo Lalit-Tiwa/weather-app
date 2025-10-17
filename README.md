@@ -27,11 +27,7 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
 
 > *(Add your app screenshot here)*
 > Example:
-<<<<<<< HEAD
 > ![App Screenshot](assets/weather.png)
-=======
-> ![App Screenshot](/assets/weather.png)
->>>>>>> 4a4f9ac (changes has been done in REAMDE.md and script.js)
 
 ---
 
