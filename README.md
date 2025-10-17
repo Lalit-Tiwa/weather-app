@@ -4,7 +4,6 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
 
 ---
 
-![Weather App Demo](./assets/weather.gif)
 
 ## 🚀 Features
 
@@ -29,7 +28,7 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
 
 > *(Add your app screenshot here)*
 > Example:
-> ![App Screenshot](./screenshot.png)
+> ![App Screenshot](.assets/weather.png)
 
 ---
 
@@ -92,4 +91,5 @@ This project is licensed under the **MIT License** – feel free to use and modi
 ---
 
 > ⭐ Don’t forget to give this repo a star if you found it helpful!
+
 
