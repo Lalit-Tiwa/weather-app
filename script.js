@@ -24,10 +24,8 @@
 
                 const response = await fetch(url);
                 const data = await response.json();
+              
             
-
-            
-
 
                 if (data.cod === 404) {
                     alert("❌ City not found. Please enter a valid city name.");
@@ -39,7 +37,7 @@
                     lon.textContent = "";
                     description.textContent = "";
                     return;
-            }
+               }
         
 
             

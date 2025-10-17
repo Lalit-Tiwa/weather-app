@@ -9,9 +9,8 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
 
 * 🌍 Search weather by city name
 * 🌡️ Displays temperature, humidity, and weather condition
-* 🌈 Dynamic background or weather icons based on conditions
-* ⚡ Fast, responsive, and mobile-friendly UI
-* 🕒 Shows current date and time
+* 🌈 Dynamic, animated background, or weather icons based on conditions
+* ⚡ Fast, responsive UI
 
 ---
 
@@ -28,7 +27,11 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
 
 > *(Add your app screenshot here)*
 > Example:
+<<<<<<< HEAD
 > ![App Screenshot](assets/weather.png)
+=======
+> ![App Screenshot](/assets/weather.png)
+>>>>>>> 4a4f9ac (changes has been done in REAMDE.md and script.js)
 
 ---
 
@@ -39,15 +42,21 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
    ```bash
    git clone https://github.com/Lalit-Tiwa/weather-app.git
    ```
+1. **Docker Setup**
+   > Sudo apt install docker.io -y 
+   > sudo usermod -aG docker ubuntu
+   > newgrp docker
+    
 2. **Navigate into the folder**
 
    ```bash
    cd weather-app
    ```
-3. **Open the project**
+3. **Build docker image and container**
+   > docker build -t weather.
+   > docker run -d --name weather-app -p 8080:80 weather:latest 
 
-   * You can directly open `index.html` in your browser
-     *(No backend or server setup required)*
+4. Access weater-app using URL- http://<public-ip-address>:8080/
 
 ---
 
@@ -79,7 +88,7 @@ Weather: Cloudy
 ## 🧑‍💻 Author
 
 **Lalit Tiwari**
-📧 [Add your email here]
+📧 [lalit.tiwarirkt@gmail.com]
 🌐 [Your Portfolio or LinkedIn link]
 
 ---
