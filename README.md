@@ -39,9 +39,9 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
    git clone https://github.com/Lalit-Tiwa/weather-app.git
    ```
 1. **Docker Setup**
-   > Sudo apt install docker.io -y 
-   > sudo usermod -aG docker ubuntu
-   > newgrp docker
+   * Sudo apt install docker.io -y 
+   * sudo usermod -aG docker ubuntu
+   * newgrp docker
     
 2. **Navigate into the folder**
 
@@ -49,8 +49,8 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
    cd weather-app
    ```
 3. **Build docker image and container**
-   > docker build -t weather.
-   > docker run -d --name weather-app -p 8080:80 weather:latest 
+   * docker build -t weather.
+   * docker run -d --name weather-app -p 8080:80 weather:latest 
 
 4. Access weater-app using URL- http://<public-ip-address>:8080/
 
